@@ -1,1 +1,2 @@
-Js implementation of mergesort + unit tests
+# mergesort
+js implementation of mergesort + unit tests
