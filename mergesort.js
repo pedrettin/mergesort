@@ -1,7 +1,3 @@
-//take in an array to sort
-// recursively split it until you get to 1 element
-// start merging them backwards by comparing elements
-
 const mergesort = function () {
 	
 	const pub = {}
