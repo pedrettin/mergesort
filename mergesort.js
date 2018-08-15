@@ -7,10 +7,10 @@ const mergesort = function () {
 		const arrayHalf = Math.floor(array.length/2)
 		const lower = pub.sort(array.slice(0, arrayHalf))
 		const higher = pub.sort(array.slice(arrayHalf, array.length))
-		return pub.merge(lower, higher)
+		return merge(lower, higher)
 	}
 	
-	pub.merge = function (lower, higher) {
+	const merge = function (lower, higher) {
 		let sortedArray = []
 		let leftIndex = 0
 		let rightIndex = 0
