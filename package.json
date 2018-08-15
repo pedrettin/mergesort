@@ -1,0 +1,13 @@
+{
+  "name": "merge-sort",
+  "version": "1.0.0",
+  "description": "merge sort written in js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "should": "^13.2.3"
+  }
+}
